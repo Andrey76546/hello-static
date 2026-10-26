@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Static</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <h1>🚀 Hello Static</h1>
+        <p class="subtitle">Статический сайт на HTML + CSS + JS</p>
+      </header>
+
+      <main>
+        <section class="card">
+          <h2>О проекте</h2>
+          <p>
+            Этот сайт автоматически деплоится на
+            <strong>GitHub Pages</strong> при push в <code>main</code>.
+            Файлы <code>index.html</code>, <code>style.css</code> и
+            <code>script.js</code> уезжают на сервер <strong>как есть</strong> —
+            без сборки.
+          </p>
+        </section>
+
+        <section class="card">
+          <h2>Интерактивный счётчик</h2>
+          <p>Нажатий: <span id="counter">0</span></p>
+          <button id="increment" type="button">Увеличить</button>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Deployed with ❤️ to GitHub Pages</p>
+      </footer>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
